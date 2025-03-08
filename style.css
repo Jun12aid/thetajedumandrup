@@ -464,7 +464,18 @@ h3{
         min-height: 70vh;
     }
 
-    
+     .headerr p{
+        margin-left: 1%;
+        font-size: 120%;
+    }
+    p.one{
+        margin-left: 8%;
+        margin-top: -14px;
+    }
+    p.two{
+        margin-left: 6%;
+        margin-top: -14px;
+    }
 
     .text-box {
         width: 100%;
