@@ -446,3 +446,76 @@ h3{
     box-sizing: border-box;
 }
 
+
+@media (max-width: 768px) {
+    .headerr h2, .headerr h1, .headerr p, .headerr h3, .headerr h4 {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .headerr img {
+        width: 100px;
+        position: static;
+        display: block;
+        margin: auto;
+    }
+
+    .header {
+        min-height: 70vh;
+    }
+
+    
+
+    .text-box {
+        width: 100%;
+        top: 40%;
+    }
+
+    .text-box h1 {
+        font-size: 30px;
+    }
+
+    .text-box p {
+        font-size: 14px;
+    }
+
+    .hero-btn {
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .course-col, .campus-col, .facilities-col, .testimonials-col {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+
+    .testimonials-col {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .testimonials-col img {
+        margin: 0 auto 10px;
+    }
+
+    .layer h3 {
+        font-size: 18px;
+    }
+
+    .blog-left, .blog-right {
+        flex-basis: 100%;
+    }
+
+    .contact-col {
+        flex-basis: 100%;
+    }
+
+    .location iframe {
+        height: 300px;
+    }
+}
+
